@@ -45,7 +45,7 @@ Returning markup:
 
 ViewComponents work best for templates that are reused or benefit from being tested directly. Partials and templates with significant amounts of embedded Ruby often make good ViewComponents.
 
-### Single responsibility
+### Single Responsibility
 
 Rails applications often scatter view-related logic across models, controllers, and helpers, diluting their intended responsibilities. ViewComponents consolidate the logic needed for a template into a single class, resulting in a cohesive object that is easy to understand.
 
@@ -258,8 +258,9 @@ ViewComponent is built by over a hundred members of the community, including:
 * [Within3](https://www.within3.com/)
 * [Wrapbook](https://wrapbook.com/)
 * [Yobbers](https://www.yobbers.com/)
+* [Remote Jobs](https://www.remotely.jobs)
 
-Using ViewComponent? [Send a pull request](https://github.com/viewcomponent/view_component/edit/main/docs/index.md) to update this list!
+Are you using ViewComponent? [Send a pull request](https://github.com/viewcomponent/view_component/edit/main/docs/index.md) to update this list!
 You can also check out [how various projects use ViewComponent](https://github.com/viewcomponent/view_component/network/dependents?package_id=UGFja2FnZS0xMDEwNjQxMzYx).
 
 <hr />
